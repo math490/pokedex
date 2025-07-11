@@ -15,7 +15,7 @@ Este projeto foi idealizado com fins educacionais, visando o desenvolvimento de 
 
 ## Configuração recomendada da IDE
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=Vue.vetur) (e desative o Vetur).
+[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=Vue.vetur) (e desative o Volar).
 
 ## Suporte a Tipagem para Imports de `.vue` em TypeScript
 
