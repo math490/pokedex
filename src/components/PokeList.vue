@@ -40,13 +40,6 @@ export default defineComponent({
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-  overflow: hidden; /* Esconde o texto que excede a largura */
-  text-overflow: ellipsis; /* Adiciona "..." no final do texto cortado */
-}
-
-.cartoes.overflow {
-  font-size: 14px; /* Tamanho da fonte quando há estouro */
 }
 
 </style>
