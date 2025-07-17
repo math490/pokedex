@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios de build
+dist/
+dist-ssr/
+build/
+
+# Caches de ferramentas
+.vite/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Ambiente local
+.env
+.env.local
+.env.*.local
+*.local
+
+# Lock files (opcional, se quiser ignorar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Cobertura de testes
+coverage/
+
+# Arquivos de editor/IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# Arquivos temporários do sistema ou do usuário
+*.swp
+*.tmp
+*.orig
+*.backup
+*.old
+
+# Arquivos de deploy (caso use)
+firebase.json
+netlify.toml
+.vercel/
+.output/
+
+# Arquivos do Vitest (se usar)
+test-results/
+
+# Snapshots de testes (se quiser ignorar)
+__snapshots__/
+
+# Arquivos do Playwright (se usar testes E2E com ele)
+playwright-report/
+test-results/
